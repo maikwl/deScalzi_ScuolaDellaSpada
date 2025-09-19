@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Book Wiki • Home</title>
+    <meta name="color-scheme" content="dark" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      
+<aside>
+  <div class="brand">
+    <div class="logo"></div>
+    <h1>My Book Wiki</h1>
+  </div>
+  <nav class="nav">
+    <h2>Chapters</h2>
+    <ul>
+      <li><a href="chapters/chapter-01.html" >Chapter 1</a></li>
+      <li><a href="chapters/chapter-02.html" >Chapter 2</a></li>
+    </ul>
+    <h2>Pages</h2>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+</aside>
+
+      <main>
+        
+<header class="header">
+  <div class="crumbs">Home</div>
+  <div class="controls">
+    <a class="btn" href="chapters/chapter-01.html">Go to Chapter 1 ↗</a>
+    <button data-action="toggle-translation" title="Show/hide translation">Toggle translation</button>
+  </div>
+</header>
+
+<section class="card hero">
+  <h2>Welcome</h2>
+  <p class="muted">
+    This is a lightweight wiki with a <strong>book-like structure</strong>. Each chapter page presents
+    two aligned columns: the original <em>Italian</em> text and its <em>translation</em>, broken into matching boxes.
+  </p>
+</section>
+
+<section class="card">
+  <h3 style="margin-top:0">How to use</h3>
+  <ol>
+    <li>Duplicate a chapter file (e.g., <code>chapters/chapter-01.html</code>) for each new chapter.</li>
+    <li>Inside each chapter, add one <code>.pair</code> per segment. The left box is the Italian original, the right box is the translation.</li>
+    <li>Use the "Toggle translation" button to hide/show the translation column during editing or review.</li>
+  </ol>
+</section>
+
+<footer>© 2025 — Built with static HTML/CSS/JS. Host anywhere. Optimized for GitHub Pages.</footer>
+
+      </main>
+    </div>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
