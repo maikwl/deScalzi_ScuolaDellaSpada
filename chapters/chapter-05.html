@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chapter 5 • My Book Wiki</title>
+    <meta name="color-scheme" content="dark" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      
+<aside>
+  <div class="brand">
+    <div class="logo"></div>
+    <h1>My Book Wiki</h1>
+  </div>
+  <nav class="nav">
+    <h2>Chapters</h2>
+    <ul>
+      <li><a href="chapter-01.html" >Chapter 1</a></li>
+      <li><a href="chapter-02.html" style="background: rgba(56,189,248,.12)">Chapter 2</a></li>
+    </ul>
+    <h2>Pages</h2>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../about.html">About</a></li>
+    </ul>
+  </nav>
+</aside>
+
+      <main>
+        
+<header class="header">
+  <div class="crumbs"><a href="../index.html">Home</a> / Chapter 2</div>
+  <div class="controls">
+    <a class="btn" href="chapter-01.html">← Previous</a>
+    <a class="btn" href="chapter-03.html">Next →</a>
+    <button data-action="toggle-translation">Toggle translation</button>
+  </div>
+</header>
+
+<div class="columns-header">
+  <div class="grid-two">
+    <div>Original (Italian)</div>
+    <div>Translation</div>
+  </div>
+</div>
+
+<!-- Repeat .pair for each aligned segment -->
+<div class="pair" id="seg-1">
+  <div class="box original">
+    <span class="lang-tag">Italiano</span>
+    <div>
+      Nella città antica, le strade narravano storie dimenticate dal tempo.
+    </div>
+  </div>
+  <div class="box translation">
+    <span class="lang-tag">Translation</span>
+    <div>
+      In the ancient city, the streets told stories long forgotten by time.
+    </div>
+  </div>
+</div>
+
+<div class="pair" id="seg-2">
+  <div class="box original">
+    <span class="lang-tag">Italiano</span>
+    <div>
+      Ogni pietra, levigata dal passo di generazioni, custodiva un ricordo.
+    </div>
+  </div>
+  <div class="box translation">
+    <span class="lang-tag">Translation</span>
+    <div>
+      Every stone, polished by the footsteps of generations, kept a memory.
+    </div>
+  </div>
+</div>
+
+<div class="pair" id="seg-3">
+  <div class="box original">
+    <span class="lang-tag">Italiano</span>
+    <div>
+      Le voci del mercato si intrecciavano con il vento del mare.
+    </div>
+  </div>
+  <div class="box translation">
+    <span class="lang-tag">Translation</span>
+    <div>
+      The voices of the market intertwined with the sea breeze.
+    </div>
+  </div>
+</div>
+
+<footer>
+  Tip: duplicate a <code>.pair</code> block for each paragraph, sentence, or verse you want to align.
+</footer>
+
+      </main>
+    </div>
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>
